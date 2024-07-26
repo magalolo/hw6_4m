@@ -1,0 +1,113 @@
+/* TodoForm.css */
+
+/* Default styles */
+.todo-form {
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    margin: 30px auto;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+  }
+  
+  .todo-form input,
+  .todo-form button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .todo-form input {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.5);
+  }
+  
+  .todo-form button {
+    background-color: #5e00b8;
+    border: 1px solid #5e00b8;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .todo-form button:hover {
+    color: #5e00b8;
+    background-color: white;
+  }
+  
+  /* Media queries for responsive design */
+  
+  /* Large desktops (≥1200px) */
+  @media (min-width: 1200px) {
+    .todo-form {
+      width: 500px;
+    }
+  }
+  
+  /* Tablets (768px - 1199px) */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .todo-form {
+      width: 400px;
+      padding: 15px;
+    }
+  
+    .todo-form input,
+    .todo-form button {
+      margin: 10px auto;
+      padding: 8px;
+    }
+  }
+  
+  /* Mobile phones (480px - 767px) */
+  @media (min-width: 480px) and (max-width: 767px) {
+    .todo-form {
+      width: 300px;
+      padding: 10px;
+    }
+  
+    .todo-form input,
+    .todo-form button {
+      margin: 8px auto;
+      padding: 6px;
+    }
+  }
+  
+  /* Small mobile phones (<480px) */
+  @media (max-width: 479px) {
+    .todo-form {
+      width: 100%;
+      padding: 5px;
+      margin: 20px auto;
+    }
+  
+    .todo-form input,
+    .todo-form button {
+      margin: 5px auto;
+      padding: 5px;
+    }
+  
+    .todo-form button {
+      padding: 5px 10px;
+    }
+  }
+  
+  /* Smallest screens (≤180px) */
+  @media (max-width: 180px) {
+    .todo-form {
+      width: 100%;
+      padding: 2px;
+      margin: 10px auto;
+    }
+  
+    .todo-form input,
+    .todo-form button {
+      margin: 2px auto;
+      padding: 2px;
+    }
+  
+    .todo-form button {
+      padding: 2px 5px;
+    }
+  }
+  
